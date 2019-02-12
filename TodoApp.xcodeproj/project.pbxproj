@@ -12,6 +12,8 @@
 		DC44BAA02212DC0000340F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC44BA9E2212DC0000340F17 /* Main.storyboard */; };
 		DC44BAA22212DC0200340F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC44BAA12212DC0200340F17 /* Assets.xcassets */; };
 		DC44BAA52212DC0200340F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC44BAA32212DC0200340F17 /* LaunchScreen.storyboard */; };
+		DC44BAAD2212DE2100340F17 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44BAAC2212DE2100340F17 /* AddTaskViewController.swift */; };
+		DC44BAAF2212E70D00340F17 /* TaskUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44BAAE2212E70D00340F17 /* TaskUserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DC44BAA12212DC0200340F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC44BAA42212DC0200340F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC44BAA62212DC0200340F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC44BAAC2212DE2100340F17 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		DC44BAAE2212E70D00340F17 /* TaskUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskUserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				DC44BA9A2212DC0000340F17 /* AppDelegate.swift */,
+				DC44BAAC2212DE2100340F17 /* AddTaskViewController.swift */,
 				DC44BA9C2212DC0000340F17 /* ViewController.swift */,
+				DC44BAAE2212E70D00340F17 /* TaskUserDefaults.swift */,
 				DC44BA9E2212DC0000340F17 /* Main.storyboard */,
 				DC44BAA12212DC0200340F17 /* Assets.xcassets */,
 				DC44BAA32212DC0200340F17 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC44BA9D2212DC0000340F17 /* ViewController.swift in Sources */,
+				DC44BAAD2212DE2100340F17 /* AddTaskViewController.swift in Sources */,
 				DC44BA9B2212DC0000340F17 /* AppDelegate.swift in Sources */,
+				DC44BAAF2212E70D00340F17 /* TaskUserDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
